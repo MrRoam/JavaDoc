@@ -1,0 +1,16 @@
+[
+  {
+    "project_slug": "google_guava",
+    "repository_url": "https://github.com/google/guava.git",
+    "scan_started_at": "",
+    "scan_completed_at": "",
+    "scanned_commit_count": 50,
+    "retained_commit_count": 0,
+    "retained_change_count": 0,
+    "oldest_scanned_commit": "1e0561a56c4d140becd64a5369e047e21e51fa7a",
+    "newest_scanned_commit": "9b616d639ed20eaef905097fabf9bebbf8b17d95",
+    "scan_status": "partial",
+    "stop_reason": "",
+    "yield_per_1000_scanned_commits": 0.0
+  }
+]

@@ -52,6 +52,24 @@ def test_extract_file_changes_does_not_carry_full_commit_patch():
     assert changes[0].new_content == "new"
 
 
+def test_extract_file_changes_reuses_prefiltered_paths():
+    from javadoc_miner.diff_extractor import extract_file_changes
+
+    class FakeRepo:
+        def show_name_status(self, commit_hash):
+            raise AssertionError("prefiltered paths should avoid a second name-status call")
+
+        def show_file(self, commit_ref, path):
+            return f"{commit_ref}:{path}"
+
+    changes = extract_file_changes(FakeRepo(), "abc123", ["src/main/java/org/example/Foo.java"])
+
+    assert len(changes) == 1
+    assert changes[0].path == "src/main/java/org/example/Foo.java"
+    assert changes[0].old_content == "abc123^:src/main/java/org/example/Foo.java"
+    assert changes[0].new_content == "abc123:src/main/java/org/example/Foo.java"
+
+
 def test_commit_has_javadoc_and_code_changes_requires_both():
     patch = """
 diff --git a/src/main/java/Foo.java b/src/main/java/Foo.java

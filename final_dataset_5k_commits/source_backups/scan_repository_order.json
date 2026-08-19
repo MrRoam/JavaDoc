@@ -1,0 +1,142 @@
+[
+  {
+    "project_slug": "google_guava",
+    "repository_url": "https://github.com/google/guava.git",
+    "repository_name": "google/guava"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "repository_name": "junit-team/junit-framework"
+  },
+  {
+    "project_slug": "mockito_mockito",
+    "repository_url": "https://github.com/mockito/mockito.git",
+    "repository_name": "mockito/mockito"
+  },
+  {
+    "project_slug": "assertj_assertj",
+    "repository_url": "https://github.com/assertj/assertj.git",
+    "repository_name": "assertj/assertj"
+  },
+  {
+    "project_slug": "spring_projects_spring_data_commons",
+    "repository_url": "https://github.com/spring-projects/spring-data-commons.git",
+    "repository_name": "spring-projects/spring-data-commons"
+  },
+  {
+    "project_slug": "jodaorg_joda_time",
+    "repository_url": "https://github.com/JodaOrg/joda-time.git",
+    "repository_name": "JodaOrg/joda-time"
+  },
+  {
+    "project_slug": "google_gson",
+    "repository_url": "https://github.com/google/gson.git",
+    "repository_name": "google/gson"
+  },
+  {
+    "project_slug": "ben_manes_caffeine",
+    "repository_url": "https://github.com/ben-manes/caffeine.git",
+    "repository_name": "ben-manes/caffeine"
+  },
+  {
+    "project_slug": "reactivex_rxjava",
+    "repository_url": "https://github.com/ReactiveX/RxJava.git",
+    "repository_name": "ReactiveX/RxJava"
+  },
+  {
+    "project_slug": "reactor_reactor_core",
+    "repository_url": "https://github.com/reactor/reactor-core.git",
+    "repository_name": "reactor/reactor-core"
+  },
+  {
+    "project_slug": "micrometer_metrics_micrometer",
+    "repository_url": "https://github.com/micrometer-metrics/micrometer.git",
+    "repository_name": "micrometer-metrics/micrometer"
+  },
+  {
+    "project_slug": "openfeign_feign",
+    "repository_url": "https://github.com/OpenFeign/feign.git",
+    "repository_name": "OpenFeign/feign"
+  },
+  {
+    "project_slug": "fasterxml_jackson_core",
+    "repository_url": "https://github.com/FasterXML/jackson-core.git",
+    "repository_name": "FasterXML/jackson-core"
+  },
+  {
+    "project_slug": "fasterxml_jackson_annotations",
+    "repository_url": "https://github.com/FasterXML/jackson-annotations.git",
+    "repository_name": "FasterXML/jackson-annotations"
+  },
+  {
+    "project_slug": "fasterxml_jackson_modules_java8",
+    "repository_url": "https://github.com/FasterXML/jackson-modules-java8.git",
+    "repository_name": "FasterXML/jackson-modules-java8"
+  },
+  {
+    "project_slug": "fasterxml_jackson_dataformats_text",
+    "repository_url": "https://github.com/FasterXML/jackson-dataformats-text.git",
+    "repository_name": "FasterXML/jackson-dataformats-text"
+  },
+  {
+    "project_slug": "grpc_grpc_java",
+    "repository_url": "https://github.com/grpc/grpc-java.git",
+    "repository_name": "grpc/grpc-java"
+  },
+  {
+    "project_slug": "tng_archunit",
+    "repository_url": "https://github.com/TNG/ArchUnit.git",
+    "repository_name": "TNG/ArchUnit"
+  },
+  {
+    "project_slug": "netty_netty",
+    "repository_url": "https://github.com/netty/netty.git",
+    "repository_name": "netty/netty"
+  },
+  {
+    "project_slug": "spring_projects_spring_framework",
+    "repository_url": "https://github.com/spring-projects/spring-framework.git",
+    "repository_name": "spring-projects/spring-framework"
+  },
+  {
+    "project_slug": "eclipse_collections_eclipse_collections",
+    "repository_url": "https://github.com/eclipse-collections/eclipse-collections.git",
+    "repository_name": "eclipse-collections/eclipse-collections"
+  },
+  {
+    "project_slug": "mapstruct_mapstruct",
+    "repository_url": "https://github.com/mapstruct/mapstruct.git",
+    "repository_name": "mapstruct/mapstruct"
+  },
+  {
+    "project_slug": "raphw_byte_buddy",
+    "repository_url": "https://github.com/raphw/byte-buddy.git",
+    "repository_name": "raphw/byte-buddy"
+  },
+  {
+    "project_slug": "undertow_io_undertow",
+    "repository_url": "https://github.com/undertow-io/undertow.git",
+    "repository_name": "undertow-io/undertow"
+  },
+  {
+    "project_slug": "apache_avro",
+    "repository_url": "https://github.com/apache/avro.git",
+    "repository_name": "apache/avro"
+  },
+  {
+    "project_slug": "apache_calcite",
+    "repository_url": "https://github.com/apache/calcite.git",
+    "repository_name": "apache/calcite"
+  },
+  {
+    "project_slug": "apache_kafka",
+    "repository_url": "https://github.com/apache/kafka.git",
+    "repository_name": "apache/kafka"
+  },
+  {
+    "project_slug": "jooq_jooq",
+    "repository_url": "https://github.com/jOOQ/jOOQ.git",
+    "repository_name": "jOOQ/jOOQ"
+  }
+]

@@ -1,0 +1,26 @@
+metric,value
+baseline_path,final_dataset_merged_no_commit_cap
+baseline_commit_count,2570
+baseline_change_count,6586
+new_raw_candidate_commit_count,2523
+new_raw_candidate_change_count,4452
+combined_raw_change_count,11038
+combined_cleaned_change_count,10892
+duplicate_change_count,146
+empty_commit_removed_count,92
+format_only_removed_count,0
+weak_issue_unresolved_count,0
+entity_type_review_count,0
+invalid_change_count,0
+final_commit_count,5001
+final_total_change_count,10892
+final_method_change_count,7053
+final_class_change_count,3839
+commits_with_one_change,3579
+commits_with_multiple_changes,1422
+average_changes_per_commit,2.178
+median_changes_per_commit,1
+max_changes_in_one_commit,111
+per_project_commit_count,"{""apache_avro"": 31, ""apache_calcite"": 17, ""apache_commons_codec"": 31, ""apache_commons_collections"": 50, ""apache_commons_compress"": 126, ""apache_commons_io"": 128, ""apache_commons_lang"": 32, ""apache_commons_math"": 323, ""apache_commons_text"": 24, ""apache_lucene"": 1121, ""assertj_assertj"": 86, ""ben_manes_caffeine"": 51, ""eclipse_collections_eclipse_collections"": 4, ""fasterxml_jackson_annotations"": 4, ""fasterxml_jackson_core"": 53, ""fasterxml_jackson_databind"": 164, ""fasterxml_jackson_dataformats_text"": 3, ""fasterxml_jackson_modules_java8"": 1, ""google_gson"": 33, ""google_guava"": 210, ""grpc_grpc_java"": 175, ""jodaorg_joda_time"": 89, ""junit_team_junit5"": 138, ""junit_team_junit_framework"": 2, ""mapstruct_mapstruct"": 24, ""micrometer_metrics_micrometer"": 12, ""mockito_mockito"": 29, ""netty_netty"": 172, ""openfeign_feign"": 26, ""raphw_byte_buddy"": 226, ""reactivex_rxjava"": 58, ""reactor_reactor_core"": 118, ""spring_projects_spring_data_commons"": 134, ""spring_projects_spring_framework"": 1273, ""tng_archunit"": 14, ""undertow_io_undertow"": 19}"
+per_project_change_count,"{""apache_avro"": 42, ""apache_calcite"": 22, ""apache_commons_codec"": 71, ""apache_commons_collections"": 120, ""apache_commons_compress"": 297, ""apache_commons_io"": 334, ""apache_commons_lang"": 38, ""apache_commons_math"": 1871, ""apache_commons_text"": 37, ""apache_lucene"": 2368, ""assertj_assertj"": 144, ""ben_manes_caffeine"": 63, ""eclipse_collections_eclipse_collections"": 7, ""fasterxml_jackson_annotations"": 4, ""fasterxml_jackson_core"": 182, ""fasterxml_jackson_databind"": 258, ""fasterxml_jackson_dataformats_text"": 5, ""fasterxml_jackson_modules_java8"": 1, ""google_gson"": 61, ""google_guava"": 482, ""grpc_grpc_java"": 222, ""jodaorg_joda_time"": 255, ""junit_team_junit5"": 210, ""junit_team_junit_framework"": 3, ""mapstruct_mapstruct"": 25, ""micrometer_metrics_micrometer"": 15, ""mockito_mockito"": 49, ""netty_netty"": 369, ""openfeign_feign"": 36, ""raphw_byte_buddy"": 435, ""reactivex_rxjava"": 105, ""reactor_reactor_core"": 320, ""spring_projects_spring_data_commons"": 245, ""spring_projects_spring_framework"": 2154, ""tng_archunit"": 15, ""undertow_io_undertow"": 27}"
+validation,"{""change_count"": 10892, ""commit_count"": 5001, ""errors"": {}, ""passed"": true}"

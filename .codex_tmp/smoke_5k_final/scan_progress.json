@@ -1,0 +1,33 @@
+[
+  {
+    "project_slug": "google_guava",
+    "repository_url": "https://github.com/google/guava.git",
+    "batch_index": 1,
+    "commits_scanned": 50,
+    "cumulative_commits_scanned": 50,
+    "raw_candidate_commits": 0,
+    "raw_candidate_changes": 0,
+    "retained_commits_before_global_dedup": 0,
+    "retained_commits_after_global_dedup": 210,
+    "retained_changes_before_global_dedup": 0,
+    "retained_changes_after_global_dedup": 482,
+    "method_level_changes": 0,
+    "class_level_changes": 0,
+    "commits_with_multiple_changes": 0,
+    "duplicate_changes_removed": 0,
+    "empty_commits_removed": 0,
+    "format_only_rejection_count": 0,
+    "weak_issue_detected": 0,
+    "weak_issue_resolved": 0,
+    "weak_issue_unresolved": 0,
+    "java_parse_success_count": 0,
+    "java_parse_failure_count": 0,
+    "issue_summary_success_rate": 1.0,
+    "java_parse_success_rate": 1.0,
+    "yield_per_1000_scanned_commits": 0.0,
+    "oldest_commit": "1e0561a56c4d140becd64a5369e047e21e51fa7a",
+    "newest_commit": "9b616d639ed20eaef905097fabf9bebbf8b17d95",
+    "scan_status": "partial",
+    "stop_reason": ""
+  }
+]

@@ -114,6 +114,39 @@ def main(argv: list[str] | None = None) -> int:
         except (FileNotFoundError, ValueError) as error:
             parser.error(str(error))
         return 0
+    if args.command == "mine-5k-commits":
+        from .commit_continuation import CommitContinuationConfig, mine_commit_continuation_dataset
+
+        config = CommitContinuationConfig(
+            root_dir=args.root_dir,
+            baseline_dir=args.baseline_dir,
+            legacy_merged_dir=args.legacy_merged_dir,
+            continuation_dir=args.continuation_dir,
+            final_dir=args.final_dir,
+            cache_dir=args.cache_dir,
+            target_commits=args.target_commits,
+            batch_size=args.batch_size,
+            initial_probe_commits=args.initial_probe_commits,
+            start_from=args.start_from,
+            max_repos=args.max_repos,
+            max_commits_per_repo=args.max_commits_per_repo,
+            smoke_commits=args.smoke_commits,
+            dry_run=args.dry_run,
+            force_refresh=args.force_refresh,
+            fetch_existing=not args.no_fetch_existing,
+            include_completed=args.include_completed,
+        )
+        try:
+            summary = mine_commit_continuation_dataset(config)
+        except (FileNotFoundError, ValueError) as error:
+            parser.error(str(error))
+        print(
+            "5k continuation summary: "
+            f"final_commits={summary.get('final_commit_count', 0)}, "
+            f"final_changes={summary.get('final_total_change_count', 0)}, "
+            f"validation_passed={summary.get('validation', {}).get('passed', False)}"
+        )
+        return 0
     parser.print_help()
     return 1
 
@@ -499,6 +532,28 @@ def _build_parser() -> argparse.ArgumentParser:
     continuation.add_argument("--max-repos", type=int)
     continuation.add_argument("--dry-run", action="store_true")
     continuation.add_argument("--force-refresh", action="store_true")
+
+    commit_5k = subparsers.add_parser(
+        "mine-5k-commits",
+        help="Continue the commit-level grouped dataset until the final valid commit target is reached.",
+    )
+    commit_5k.add_argument("--root-dir", type=Path, default=Path("."))
+    commit_5k.add_argument("--baseline-dir", type=Path, default=Path("final_dataset_merged_no_commit_cap"))
+    commit_5k.add_argument("--legacy-merged-dir", type=Path, default=Path("final_dataset_merged"))
+    commit_5k.add_argument("--continuation-dir", type=Path, default=Path("final_dataset_continuation_to_5k_commits"))
+    commit_5k.add_argument("--final-dir", type=Path, default=Path("final_dataset_5k_commits"))
+    commit_5k.add_argument("--cache-dir", type=Path, default=Path(".cache/repos"))
+    commit_5k.add_argument("--target-commits", type=int, default=5000)
+    commit_5k.add_argument("--batch-size", type=int, default=1000)
+    commit_5k.add_argument("--initial-probe-commits", type=int, default=3000)
+    commit_5k.add_argument("--start-from", default="")
+    commit_5k.add_argument("--max-repos", type=int)
+    commit_5k.add_argument("--max-commits-per-repo", type=int)
+    commit_5k.add_argument("--smoke-commits", type=int, default=0)
+    commit_5k.add_argument("--dry-run", action="store_true")
+    commit_5k.add_argument("--force-refresh", action="store_true")
+    commit_5k.add_argument("--no-fetch-existing", action="store_true")
+    commit_5k.add_argument("--include-completed", action="store_true")
     return parser
 
 

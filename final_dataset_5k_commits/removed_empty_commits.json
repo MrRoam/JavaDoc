@@ -1,0 +1,554 @@
+[
+  {
+    "project_slug": "apache_avro",
+    "repository_url": "https://github.com/apache/avro.git",
+    "commit_hash": "f8c70a3a9fe5a410363544493a03dc2d10340cbd",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "apache_calcite",
+    "repository_url": "https://github.com/apache/calcite.git",
+    "commit_hash": "bf2b81b27d76ef3571ba676dbc7bce4ccb4a0413",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "fasterxml_jackson_core",
+    "repository_url": "https://github.com/FasterXML/jackson-core.git",
+    "commit_hash": "30b3c813685acee17156eb56d146e84da4c79722",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "fasterxml_jackson_core",
+    "repository_url": "https://github.com/FasterXML/jackson-core.git",
+    "commit_hash": "debf306bd664921301d9b00256151ebc85bca588",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "02f658e24ba6137fb9ef795ac9cc6cb9cbdd5772",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "04f4bba5a3872ecf0852d70f3847b9e66d59809d",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "0e03295ca3e084ed8cc5de739310be1d6ebc66f7",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "135c4ec11a27c265b8ab82c137ceac81619a3b2f",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "137f831bba9d0f45085d64fad47947cbc91a30e9",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "169c99fdbf39f2e6600fb5d68571e5f7366eaf57",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "18e06a67816d0f1bda8ee783ea89598caa7991d0",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "1a7fde7a02f0cf3622ef84aec427241ff5be62f1",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "1c1c979e8ae8e868f1da868077694093ca0132f0",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "1dc5c06669a225067d6cd674d297209e9f96204c",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "1e84ffce09db824535a63313a570f1e3d4f730ba",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "1e9703a099e1169e09929d7d6c2a1f2cc15c22ae",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "2196d97edc152c2b0a8dda2d6ddffe66ab516d81",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "219bf17a7e5d49621613a1b591fca72817b801d5",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "29911f2408c72b5873d63c5fe43cc51bedabe818",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "2e496ca4583155ca0e3a876add731630c789ae3b",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "3e84838c16eeef7bde8b37f049da0b0e0423e244",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "3ec77993d46efe04cc5a3b62086bb3d5fd924e3d",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "3f1f8dc55446c58cb3d219516bf795fce23610bc",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "44a3aa33f6cf691524f65c32f7efe390d55518c9",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "4b8009bff07a8915a64b93e9b10ca2baad3c8610",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "4db8e8e359cb0a209b7321b5afc3a304e941c9f0",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "4f9aec446c0885b8b5e3ff1eb7d031bcdfc8d993",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "551188eb167267c26fb3c3864f4cd4b38a79cdcb",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "5b7a3f068c4edb364002b7086d25754a7f7b3c93",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "5bada91048eb1e9bcc6fba2d37cdee8f627e6f6a",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "5be88453c4641428aabba5b1f0cda663c9f3b3b8",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "5cb71ec0e66a7e411c7d238d4b4e53b1c2c27316",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "694efb6dbd8506d623d5c117d1df39f9260f72df",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "6e4a883c5097f6bc2fa1cbe7e03602386b3eb960",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "72d668a7e42d3770e2f7cdbb450baaeb69d2bb5e",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "73dfc230a840d446c8d85870993b5f657c1a3892",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "74bd85caa8c9946fe0589ab4c6c09ecf799b7877",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "750bddbffca5da75f50f1f51ab1f8dd470129422",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "75d6ca31a6cd774f4a62dcd4420b5836ed0ea36b",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "75de66e17a98aa9627ad388338aacae8d8f17484",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "76d7be5a093381bea76bdce54b55243873705b47",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "78fa0ba24f9f6f29a00bb1bcbb553fa5eecd4075",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "7be6fdec7c6b0cbed5f1349a8e550f13eaf7834c",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "8013c6a6a2f07463c4f78f295f5652c04554b065",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "8307cd49221d90413c66918c7b094274078a6809",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "872ac7e666d693728697b62492c7c190c58bb34c",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "8771694d835bc041afacc8abe3c663c05204267a",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "8ac3dfbc5fbef433a98684a4ca958fad91c1f0f4",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "8db163135469cbc9498e915bb5b02d2fe5eca87c",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "8f71c191e214f5ec0db5b61c412779d4376d0b3b",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "8fd44c668eb973ed85a1788763ea9a2904a4436a",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "920b68868e6f258b9370996e4371c7ba44061b92",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "932ff166f2f8523e8afd932d61ae3d8f647ee998",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "9798f6fc0c6b2f6b0e056dc70731b9dbab2ffdf4",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "9abcf78a1fdf735d7e9d12c35a20d137f3f8190e",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "a40e938d40aaf3be19e00b85c0750d79164a7238",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "a8f38994ee1df37ea6eb22b3831bc3d8791f2d6e",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "ac4ff39ad334515a6a68c39e4c4e814886d52070",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "c1d682aee5da5738fc3be071df45330c005f4cf1",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "c27f8bac42910515d372ec08d178eeb769ba0451",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "c2e039c4761b1606e723f2023e140447112fd486",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "c3ad4ede68a681f630cd8586d8266593da867ee7",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "c4faa6c26918fbbb8e3dbbde0e8d5077c8873d7c",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "c659dd3bf40a266f9fceb0dea94c9c47dd0fdb20",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "c720cccb04ae4781a0d523e0b2e1ecff9072bbc7",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "c8ea3dbc5c21b6f8bec0eaf6a67a45bf2d883096",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "ccfdbd1e3f78e7ca9fea5de16075c183488b3cdc",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "ce303c347e42b606ce51eaf72294dabf19a0ae72",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "ce567289b26f3e9c2591b1ab2444f7ae3f4d28a6",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "cf30d4f814e5c84b51fea0c09caffc6671d138e9",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "d1f6edee15ccacfbb931c5f98a2eacc04ede5f56",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "da043adee5fad859de9fc9fff1707108bebfb9bf",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "dd1e96fa8655b75092525061a4a7c0d26b4b3849",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "dd667704d812894a21b5e3affd5fe3de4d6d4b10",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "dd6d1d6b87f1a0e039185ba4592ee1dece747907",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "dea4bb831c6cd3facf88770d2da8bc2cfe0d9ef5",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "dfce0a78c61d93742f1907210aaf5009569678b6",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "e47c2538a5bbf45595f25ee86f6c20c6ac6a6e7a",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "ed688316bcdf4f202d2f418d13b45c54df39f6b9",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "f32aa0a840da0115c8dd2d46547493e356e04475",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "f7e9ea0b14e17285ff72673ee6fbc0409989097e",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "f8a65af3c381e0489e89a9cf35588534041c66ff",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "f9c6e768eb82df9b8a11da5c7a9f64b889dad44d",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "commit_hash": "fc2168be855c98cf4b032f4feb1721e85f230ee0",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "mockito_mockito",
+    "repository_url": "https://github.com/mockito/mockito.git",
+    "commit_hash": "c6b48044471283e3ad875aba634c4a02721900c8",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "netty_netty",
+    "repository_url": "https://github.com/netty/netty.git",
+    "commit_hash": "ddb7d75c96806b0bac1fea3d8a17b8a9c982a18d",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "reactivex_rxjava",
+    "repository_url": "https://github.com/ReactiveX/RxJava.git",
+    "commit_hash": "82d7b9cca2efd0a8f36ec3b700bb8f34c445a093",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "reactor_reactor_core",
+    "repository_url": "https://github.com/reactor/reactor-core.git",
+    "commit_hash": "6ab518681f42b4e3b683d4d1200b048a5c450784",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "reactor_reactor_core",
+    "repository_url": "https://github.com/reactor/reactor-core.git",
+    "commit_hash": "97d110f3deea1e96f1270b5f627fc07e7e619fb6",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "spring_projects_spring_framework",
+    "repository_url": "https://github.com/spring-projects/spring-framework.git",
+    "commit_hash": "bb9e79daa7353a4356f3bfa9d7ffd2b58057a319",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "spring_projects_spring_framework",
+    "repository_url": "https://github.com/spring-projects/spring-framework.git",
+    "commit_hash": "e2f4332c49db6c0357b66c44bed0eb4aaa7357d2",
+    "removal_reason": "all_changes_removed"
+  },
+  {
+    "project_slug": "tng_archunit",
+    "repository_url": "https://github.com/TNG/ArchUnit.git",
+    "commit_hash": "8b4686c20d9b3392257384e356713cb812e6dcf9",
+    "removal_reason": "all_changes_removed"
+  }
+]

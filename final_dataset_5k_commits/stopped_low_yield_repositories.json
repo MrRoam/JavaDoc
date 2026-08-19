@@ -1,0 +1,72 @@
+[
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "scanned_commit_count": 3690,
+    "retained_commit_count": 2,
+    "retained_change_count": 3,
+    "yield_per_1000_scanned_commits": 0.542,
+    "scan_status": "stopped",
+    "stop_reason": "low_yield"
+  },
+  {
+    "project_slug": "micrometer_metrics_micrometer",
+    "repository_url": "https://github.com/micrometer-metrics/micrometer.git",
+    "scanned_commit_count": 3000,
+    "retained_commit_count": 6,
+    "retained_change_count": 6,
+    "yield_per_1000_scanned_commits": 2.0,
+    "scan_status": "stopped",
+    "stop_reason": "low_yield"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "scanned_commit_count": 4690,
+    "retained_commit_count": 2,
+    "retained_change_count": 3,
+    "yield_per_1000_scanned_commits": 0.4264,
+    "scan_status": "stopped",
+    "stop_reason": "low_yield"
+  },
+  {
+    "project_slug": "micrometer_metrics_micrometer",
+    "repository_url": "https://github.com/micrometer-metrics/micrometer.git",
+    "scanned_commit_count": 4000,
+    "retained_commit_count": 7,
+    "retained_change_count": 9,
+    "yield_per_1000_scanned_commits": 1.75,
+    "scan_status": "stopped",
+    "stop_reason": "low_yield"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "scanned_commit_count": 5690,
+    "retained_commit_count": 2,
+    "retained_change_count": 3,
+    "yield_per_1000_scanned_commits": 0.3515,
+    "scan_status": "stopped",
+    "stop_reason": "low_yield"
+  },
+  {
+    "project_slug": "micrometer_metrics_micrometer",
+    "repository_url": "https://github.com/micrometer-metrics/micrometer.git",
+    "scanned_commit_count": 5000,
+    "retained_commit_count": 12,
+    "retained_change_count": 15,
+    "yield_per_1000_scanned_commits": 2.4,
+    "scan_status": "stopped",
+    "stop_reason": "low_yield"
+  },
+  {
+    "project_slug": "junit_team_junit_framework",
+    "repository_url": "https://github.com/junit-team/junit-framework.git",
+    "scanned_commit_count": 6693,
+    "retained_commit_count": 2,
+    "retained_change_count": 3,
+    "yield_per_1000_scanned_commits": 0.2988,
+    "scan_status": "stopped",
+    "stop_reason": "low_yield"
+  }
+]

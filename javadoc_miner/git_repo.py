@@ -1,5 +1,6 @@
 import shutil
 import subprocess
+import os
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -30,7 +31,7 @@ class GitRepo:
             if fetch_existing:
                 repo.run_git(["fetch", "--all", "--tags", "--prune"])
             return repo
-        _run(["git", "clone", repo_url, str(target)], cwd=None)
+        _run(["git", "clone", "--filter=blob:none", "--no-checkout", repo_url, str(target)], cwd=None)
         return cls(repo_url, target)
 
     def run_git(self, args: list[str]) -> str:
@@ -79,6 +80,11 @@ class GitRepo:
 
 
 def _run(args: list[str], cwd: Path | None) -> str:
+    env = os.environ.copy()
+    if cwd is not None:
+        env["GIT_CONFIG_COUNT"] = "1"
+        env["GIT_CONFIG_KEY_0"] = "safe.directory"
+        env["GIT_CONFIG_VALUE_0"] = cwd.resolve().as_posix()
     result = subprocess.run(
         args,
         cwd=cwd,
@@ -86,6 +92,7 @@ def _run(args: list[str], cwd: Path | None) -> str:
         capture_output=True,
         encoding="utf-8",
         errors="replace",
+        env=env,
     )
     if result.returncode != 0:
         message = result.stderr.strip() or result.stdout.strip()

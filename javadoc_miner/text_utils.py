@@ -8,7 +8,7 @@ from pathlib import PurePosixPath
 JAVADOC_TAGS = ("@param", "@return", "@throws", "@exception", "@see", "@since")
 TEST_NAME_PATTERN = re.compile(r"(^Test.*|.*Tests?|.*TestCase)\.java$")
 NON_PRODUCTION_PATH_PATTERN = re.compile(
-    r"(^|[-_])(?:test|tests|testlib|testdata|benchmark|benchmarks|generated)([-_]|$)"
+    r"(^|[-_])(?:test|tests|testlib|testdata|benchmark|benchmarks|generated|examples?)([-_]|$)"
 )
 IGNORED_JAVADOC_TAGS = {"@see", "@since", "@version", "@author"}
 UNINFORMATIVE_WORDS = {
@@ -83,10 +83,39 @@ def is_target_java_path(path: str) -> bool:
         return False
     if parts and parts[0] == "android":
         return False
+    main_java_index = next(
+        (
+            index
+            for index in range(max(0, len(parts) - 2))
+            if parts[index : index + 3] == ["src", "main", "java"]
+        ),
+        None,
+    )
+    if main_java_index is None:
+        return False
+    source_root_parts = parts[: main_java_index + 3]
     if any(
-        part in {"test", "tests", "testdata", "generated", "target", "build"}
+        part
+        in {
+            "test",
+            "tests",
+            "testdata",
+            "generated",
+            "generated-src",
+            "generated-sources",
+            "target",
+            "build",
+            "examples",
+            "example",
+            "benchmark",
+            "benchmarks",
+            "jmh",
+            "testfixtures",
+            "integration-test",
+            "it",
+        }
         or NON_PRODUCTION_PATH_PATTERN.search(part)
-        for part in parts[:-1]
+        for part in source_root_parts
     ):
         return False
     return not TEST_NAME_PATTERN.match(name)

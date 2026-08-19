@@ -1,0 +1,8 @@
+[
+  {
+    "project_slug": "google_guava",
+    "repository_url": "https://github.com/google/guava.git",
+    "error": "fatal: detected dubious ownership in repository at 'E:/personal/code/JavaDoc/.cache/repos/google__guava'\n'E:/personal/code/JavaDoc/.cache/repos/google__guava' is owned by:\n\tLISLAPTOP/29911 (S-1-5-21-2905711071-3613196255-1568925805-1001)\nbut the current user is:\n\tLISLAPTOP/CodexSandboxOffline (S-1-5-21-2905711071-3613196255-1568925805-1006)\nTo add an exception for this directory, call:\n\n\tgit config --global --add safe.directory E:/personal/code/JavaDoc/.cache/repos/google__guava",
+    "failed_at_utc": "2026-06-20T16:58:51+00:00"
+  }
+]

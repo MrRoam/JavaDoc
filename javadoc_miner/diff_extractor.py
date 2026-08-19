@@ -42,8 +42,9 @@ def commit_has_javadoc_changes(patch: str) -> bool:
     return False
 
 
-def extract_file_changes(repo: GitRepo, commit_hash: str) -> list[FileChange]:
-    changed_paths = parse_changed_paths(repo.show_name_status(commit_hash))
+def extract_file_changes(repo: GitRepo, commit_hash: str, changed_paths: list[str] | None = None) -> list[FileChange]:
+    if changed_paths is None:
+        changed_paths = parse_changed_paths(repo.show_name_status(commit_hash))
     changes: list[FileChange] = []
     for path in changed_paths:
         old_content = repo.show_file(f"{commit_hash}^", path)

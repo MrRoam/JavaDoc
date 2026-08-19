@@ -1,0 +1,2 @@
+project_slug,repository_url,scanned_commit_count,retained_commit_count,retained_change_count,yield_per_1000_scanned_commits,scan_status,stop_reason
+google_guava,https://github.com/google/guava.git,50,0,0,0.0,partial,
